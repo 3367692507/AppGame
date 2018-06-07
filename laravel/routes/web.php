@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::any('index','Admin\Lianxi1Controller@index');
+Route::any('index','Admin\Lianxi1Controller@index');
+
